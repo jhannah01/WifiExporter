@@ -1,0 +1,8 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+    <header
+        android:fragment="com.blueodin.wifiexporter.SettingsActivity$GeneralPreferenceFragment"
+        android:title="@string/pref_header_general" />
+    <header
+        android:fragment="com.blueodin.wifiexporter.SettingsActivity$MapsPreferenceFragment"
+        android:title="@string/pref_header_maps" />
+</preference-headers>

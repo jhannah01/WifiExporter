@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/header_bg" >
+
+    <ImageButton
+        android:id="@+id/button_clear_markers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:contentDescription="@string/label_clear_markers"/>
+    
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/text_network_count"
+	    android:layout_marginRight="5dp"
+	    android:layout_toLeftOf="@+id/text_network_count"
+	    android:text="@string/label_networks"
+	    android:textAppearance="@style/Text.Medium.Label" />
+	
+	<TextView
+	    android:id="@+id/text_network_count"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentTop="true"
+	    android:text="@string/filler_count"
+	    android:textAppearance="@style/Text.Medium" />
+	
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/text_location_count"
+	    android:layout_marginRight="5dp"
+	    android:layout_toLeftOf="@+id/text_location_count"
+	    android:text="@string/label_locations"
+	    android:textAppearance="@style/Text.Medium.Label" />
+	
+	<TextView
+	    android:id="@+id/text_location_count"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/button_clear_markers"
+	    android:layout_alignParentRight="true"
+	    android:text="@string/filler_count"
+	    android:textAppearance="@style/Text.Medium" />
+
+</RelativeLayout>

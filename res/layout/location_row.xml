@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+ 	<TextView
+ 	    android:id="@+id/location_time"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_gravity="center_vertical"
+ 	    android:layout_marginLeft="30dp"
+ 	    android:layout_weight="0.25"
+ 	    android:text="@string/filler_time"
+ 	    android:textAppearance="@style/Text.Medium"
+ 	    android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.25"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+	    <TextView
+	        android:id="@+id/label_level"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="5dp"
+	        android:text="@string/label_level"
+	        android:textAppearance="@style/Text.Medium.Label" />
+	
+	    <TextView
+	        android:id="@+id/location_level"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/filler_level"
+	        android:textAppearance="@style/Text.Medium.Alt" />
+	</LinearLayout>
+	
+   	<LinearLayout
+   	    android:layout_width="0dp"
+   	    android:layout_height="wrap_content"
+   	    android:layout_weight="0.25"
+   	    android:orientation="vertical" >
+
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+
+	    	<TextView
+	           android:id="@+id/label_altitude"
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_marginRight="5dp"
+	           android:text="@string/label_altitude"
+	           android:textAppearance="@style/Text.Medium.Label" />
+	
+		   <TextView
+		       android:id="@+id/location_altitude"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       android:text="@string/filler_altitude"
+		       android:textAppearance="@style/Text.Medium" />
+	    </LinearLayout>
+	    
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginRight="5dp"
+		        android:text="@string/label_accuracy"
+		        android:textAppearance="@style/Text.Medium.Label" />
+		
+		    <TextView
+		        android:id="@+id/location_accuracy"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/filler_accuracy"
+		        android:textAppearance="@style/Text.Medium" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

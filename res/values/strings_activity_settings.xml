@@ -1,0 +1,36 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Settings for General -->
+    <string name="pref_header_general">General</string>
+    
+    <string name="pref_title_service_uri">Service URI</string>
+    <string name="pref_description_service_uri">The WifiMaps service URI to use when uploading data</string>
+    <string name="pref_default_service_uri">http://172.16.100.6:6543/upload</string>
+    
+    <string name="pref_title_use_wigle_wifi">Use WigleWifi Database</string>
+    <string name="pref_description_use_wigle_wifi">Determines if the database from the WigleWifi application should be used</string>
+    
+    
+    <!-- Settings for Maps -->
+    <string name="pref_header_maps">Maps</string>
+
+    <string name="pref_title_use_my_location">Use \'My Location\'</string>
+    <string name="pref_description_use_my_location">Specifies if your location should be shown as a point on the map</string>
+
+    <string name="pref_title_map_type">Map Type</string>
+    <string name="pref_description_map_type">Determines the type of Google Map tiles used</string>
+    <string name="pref_default_map_type">normal</string>
+    <string-array name="pref_map_type_titles">
+        <item>Normal</item>
+        <item>Hybrid</item>
+        <item>Satellite</item>
+        <item>Terrain</item>
+    </string-array>
+    <string-array name="pref_map_type_values">
+        <item>normal</item>
+        <item>hybrid</item>
+        <item>satellite</item>
+        <item>terrain</item>
+    </string-array>
+</resources>

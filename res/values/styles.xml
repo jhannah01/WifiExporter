@@ -1,0 +1,47 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppTheme" parent="android:Theme.Holo">
+    </style>
+    
+    <style name="Text.Large" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+    <style name="Text.Large.Alt" parent="@style/Text.Large">
+        <item name="android:textColor">@color/text_alt</item>
+    </style>
+    
+    <style name="Text.Medium" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">16sp</item>
+    </style>
+    
+    <style name="Text.Medium.Alt" parent="@style/Text.Medium">
+        <item name="android:textColor">@color/text_alt</item>
+    </style>
+    
+    <style name="Text.Medium.Label" parent="@style/Text.Medium">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/text_label</item>
+    </style>
+    
+    <style name="Text.Small" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">12sp</item>
+    </style>
+    
+    <style name="Text.Small.Alt" parent="@style/Text.Small">
+        <item name="android:textColor">@color/text_alt</item>
+    </style>
+    
+    <style name="Text.Small.Label" parent="@style/Text.Small">
+        <item name="android:textColor">@color/text_label</item>
+    </style>
+
+    <color name="text_label">#beb3ef</color>
+    <color name="text_alt">#00cc66</color>
+    <color name="network_circle">#70beb3ef</color>
+    <color name="network_circle_stroke">#c00e0c0e</color>
+    <color name="info_background">#ffffff</color>
+    <color name="text_info_title">#0f0f0f</color>
+    <color name="text_info_snippet">#c0c0c0</color>
+    <color name="header_background">#f0000430</color>
+    <color name="header_background_alt">#c0033e6b</color>
+</resources>
